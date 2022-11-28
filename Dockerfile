@@ -1,5 +1,5 @@
-FROM ubuntu:18.04 as build
-
+FROM ubuntu:latest as build
+ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install -y \
         binutils-mips-linux-gnu \
