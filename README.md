@@ -11,7 +11,7 @@ This is an older Build from August 4th, 2021, the newer ones have various issues
 
 ## Building PS2 executables
 
-### Using Docker(problematic)
+### Using Docker
 
 0. Ensure Git and Docker are installed on your system.
 1. Check out repo, submodules, etc:
@@ -59,7 +59,7 @@ Remember that packed ELFs will take a while to unpack before starting.
 
 ## If you get audsrv build error, github messed up a recursive clone. 
 
-To fix it, run the following comamnds in the sm64-port folder.
+To fix it, run the following comamnds in the sm64-port folder. This has been fixed by deleting linked folder and manually uploading, this should not be an issue. Leaving solution for debugging.
 
 ```
 cd ps2
