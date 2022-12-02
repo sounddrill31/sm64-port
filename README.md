@@ -56,6 +56,20 @@ ps2-packer build/us_ps2/sm64.us.f3dex2e.elf build/us_ps2/sm64.packed.elf
 ```
 Remember that packed ELFs will take a while to unpack before starting.
 
+## If you get audsrv build error, github messed up a recursive clone. 
+
+To fix it, run the following comamnds in the sm64-port folder.
+
+```
+cd ps2
+
+rm-rf ps2-audrsv
+
+git clone https://github.com/fgsfdsfgs/ps2-audsrv.git
+
+cd ..
+```
+
 ## Building native executables
 
 ### Linux
