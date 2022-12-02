@@ -7,6 +7,7 @@
 
 This repo does not include all assets necessary for compiling the game.
 A prior copy of the game is required to extract the assets.
+This is an older Build from August 4th, 2021, the newer ones have various issues while running on native hardware, and more.
 
 ## Building PS2 executables
 
