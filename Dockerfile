@@ -8,8 +8,6 @@ RUN apt-get update && \
         libaudiofile-dev \
         python3 \
         wget
-RUN rm -rf /ps2/ps2-audsrv
-
 RUN wget https://github.com/ps2dev/ps2dev/releases/download/v1.2.0/ps2dev-ubuntu-latest.tar.gz && \
     tar xzf ps2dev-ubuntu-latest.tar.gz && \
     rm ps2dev-ubuntu-latest.tar.gz
