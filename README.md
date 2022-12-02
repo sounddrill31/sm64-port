@@ -8,6 +8,8 @@
 This repo does not include all assets necessary for compiling the game.
 A prior copy of the game is required to extract the assets.
 This is an older Build from August 4th, 2021, the newer ones have various issues while running on native hardware, and more.
+This branch is an "optimal" one acc to @xdccriz
+https://github.com/fgsfdsfgs/sm64-port/issues/72#issuecomment-1264672299
 
 ## Building PS2 executables
 
