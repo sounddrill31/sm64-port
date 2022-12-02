@@ -33,7 +33,7 @@ sudo apt install git build-essential python3 gcc-mingw-w64
 1. Ensure PS2SDK and GSKit are installed on your system and the environmental variables `PS2SDK` and `GSKIT` are defined and PS2SDK is in your `PATH`.
 You can follow the installation instructions in the [ps2dev repo](https://github.com/ps2dev/ps2dev), or you can get the latest stable binaries and use them:
 ```
-wget https://github.com/ps2dev/ps2dev/releases/download/v1.1/ps2dev-ubuntu-latest.tar.gz
+wget https://github.com/ps2dev/ps2dev/releases/download/v1.2.0/ps2dev-ubuntu-latest.tar.gz
 tar xvzf ps2dev-ubuntu-latest.tar.gz
 export PATH="$(pwd)/ps2dev/ee/bin:$(pwd)/ps2dev/iop/bin:$(pwd)/sm64-port/tools:${PATH}"
 export PS2SDK=$(pwd)/ps2dev/ps2sdk
