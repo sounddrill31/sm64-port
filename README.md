@@ -10,7 +10,7 @@ A prior copy of the game is required to extract the assets.
 
 ## Building PS2 executables
 
-### Using Docker
+### Using Docker(Problematic)
 
 0. Ensure Git and Docker are installed on your system.
 1. Check out repo, submodules, etc:
@@ -29,6 +29,7 @@ cd sm64-port
 # for example on Ubuntu
 sudo apt install git build-essential python3
 ```
+also sudo apt-get install gcc-mingw-w64
 1. Ensure PS2SDK and GSKit are installed on your system and the environmental variables `PS2SDK` and `GSKIT` are defined and PS2SDK is in your `PATH`.
 You can follow the installation instructions in the [ps2dev repo](https://github.com/ps2dev/ps2dev), or you can get the latest stable binaries and use them:
 ```
