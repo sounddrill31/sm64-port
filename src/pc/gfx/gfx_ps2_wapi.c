@@ -83,7 +83,7 @@ static void gfx_ps2_init(const char *game_name, bool start_in_fullscreen) {
     gs_global->ZBuffering = GS_SETTING_ON;
     gs_global->DoubleBuffering = GS_SETTING_ON;
     gs_global->PrimAAEnable = GS_SETTING_OFF;
-    gs_global->PSM = GS_PSM_CT16; // RGB565 color buffer
+    gs_global->PSM = GS_PSM_CT24; // RGB565 color buffer
     gs_global->PSMZ = GS_PSMZ_16; // 16-bit unsigned zbuffer
 
     gsKit_init_screen(gs_global);
