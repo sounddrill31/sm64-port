@@ -9,8 +9,7 @@ RUN apt-get update && \
         python3 \
         wget
 
-RUN wget https://github.com/ps2dev/ps2dev/releases/download/v1.1/ps2dev-ubuntu-latest.tar.gz && \
-    echo 6bd7352ff526239e928f5200b43afa96bdef04ecf48d15386bac954938b514a1 ps2dev-ubuntu-latest.tar.gz | sha256sum --check && \
+RUN wget https://github.com/ps2dev/ps2dev/releases/download/v1.2.0/ps2dev-ubuntu-latest.tar.gz && \
     tar xzf ps2dev-ubuntu-latest.tar.gz && \
     rm ps2dev-ubuntu-latest.tar.gz
 
