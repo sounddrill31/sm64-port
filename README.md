@@ -26,6 +26,8 @@ cd sm64-port
 0. Ensure Git, GCC, GNU Make and Python 3 are installed on your system:
 ```
 # for example on Ubuntu
+sudo apt update
+
 sudo apt install git build-essential python3 gcc-mingw-w64
 ```
 1. Ensure PS2SDK and GSKit are installed on your system and the environmental variables `PS2SDK` and `GSKIT` are defined and PS2SDK is in your `PATH`.
