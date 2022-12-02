@@ -10,7 +10,7 @@ A prior copy of the game is required to extract the assets.
 
 ## Building PS2 executables
 
-### Using Docker
+### Using Docker(problematic)
 
 0. Ensure Git and Docker are installed on your system.
 1. Check out repo, submodules, etc:
@@ -23,7 +23,7 @@ cd sm64-port
 4. Compile using your Docker image: `docker run --rm -ti -v $(pwd):/sm64 sm64_ps2 make --jobs 4`
 
 ### Manually under Linux (WSL not tested, MSYS2 probably won't work)
-
+sudo apt-get install gcc-mingw-w64
 0. Ensure Git, GCC, GNU Make and Python 3 are installed on your system:
 ```
 # for example on Ubuntu
