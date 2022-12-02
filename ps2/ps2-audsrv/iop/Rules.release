@@ -1,0 +1,83 @@
+# _____     ___ ____     ___ ____
+#  ____|   |    ____|   |        | |____|
+# |     ___|   |____ ___|    ____| |    \    PS2DEV Open Source Project.
+#-----------------------------------------------------------------------
+# Copyright 2001-2004, ps2dev - http://www.ps2dev.org
+# Licenced under Academic Free License version 2.0
+# Review ps2sdk README & LICENSE files for further details.
+
+
+#
+# Creates the base iop directory structure in target directory.
+#
+
+RELEASE_IOP_DIRS = iop/ iop/include/sys/ iop/irx/ iop/lib
+RELEASE_IOP_DIRS := $(RELEASE_IOP_DIRS:%=$(PS2SDK)/%)
+
+
+release-iop-dirs:
+	$(MKDIR) -p $(RELEASE_IOP_DIRS)
+
+
+#
+# Most targets will only have a single IOP_LIB target.  if the file
+# exists then copy it to the iop/lib directory.
+#
+
+release-iop-lib:
+	@if test $(IOP_LIB) ; then \
+	   $(ECHO) Installing $(IOP_LIB) to $(PS2SDK)/iop/lib ; \
+	   cp -f $(IOP_LIB) $(PS2SDK)/iop/lib/ ; \
+	   chmod 644 $(PS2SDK)/iop/lib/`basename $(IOP_LIB)` ; \
+	   for file in $(IOP_LIB_ALTNAMES); do \
+	      ln -s `basename $(IOP_LIB)` $(PS2SDK)/iop/lib/$$file; \
+	   done; \
+	fi;
+
+
+#
+# Any irx files should go to iop/irx
+#
+
+release-iop-bin:
+	@if test $(IOP_BIN) ; then \
+	   $(ECHO) Installing $(IOP_BIN) to $(PS2SDK)/iop/irx ; \
+	   cp -f $(IOP_BIN) $(PS2SDK)/iop/irx/ ; \
+	   chmod 644 $(PS2SDK)/iop/irx/`basename $(IOP_BIN)` ; \
+	   for file in $(IOP_BIN_ALTNAMES); do \
+	      ln -s `basename $(IOP_BIN)` $(PS2SDK)/iop/irx/$$file; \
+	   done; \
+	fi;
+
+#
+# Any file in the include directory will be copied to the iop/include
+# directory.  This does not currently handle subdirectories.
+#
+
+release-iop-include:
+	@if test -d include ; then \
+	   for file in include/*; do \
+	     if test -f $$file ; then \
+	       $(ECHO) Installing $$file to $(PS2SDK)/iop/include ; \
+	       cp -f $$file $(PS2SDK)/iop/include ; \
+	       chmod 644 $(PS2SDK)/iop/include/`basename $$file` ; \
+	     fi \
+	   done; \
+	fi; \
+	if test -d include/sys ; then \
+	   for file in include/sys/*; do \
+	     if test -f $$file ; then \
+	       $(ECHO) Installing $$file to $(PS2SDK)/iop/include/sys ; \
+	       cp -f $$file $(PS2SDK)/iop/include/sys ; \
+	       chmod 644 $(PS2SDK)/iop/include/sys/`basename $$file` ; \
+	     fi \
+	   done; \
+	fi;
+
+release: release-iop-dirs release-iop-lib release-iop-bin release-iop-include
+
+
+release-iop-clean:
+	rm -rf $(PS2SDK)/iop/include/*
+	rm -f $(PS2SDK)/iop/irx/*
+	rm -f $(PS2SDK)/iop/lib/*
