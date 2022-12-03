@@ -11,7 +11,7 @@ This is an older Build from August 4th, 2021, the newer ones have various issues
 This branch is an "optimal" one according to a comment by @xdccriz which seems to add a bunch of quality of life improvements
 https://github.com/fgsfdsfgs/sm64-port/issues/72#issuecomment-1264672299
 
-Not working, ignore(some baserom hash error)~~We recommend applying patches like (60fps patch)[https://mario64hacks.fandom.com/wiki/Super_Mario_64_in_60_FPS_Widescreen_4k_resolution], and (widescreen patch)[https://google.com]
+Not working, ignore(some baserom hash error)~~We recommend applying patches like (60fps patch)[https://mario64hacks.fandom.com/wiki/Super_Mario_64_in_60_FPS_Widescreen_4k_resolution], and (widescreen patch)[https://google.com]~~
 
 ## Building PS2 executables
 
