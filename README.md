@@ -61,6 +61,12 @@ ps2-packer build/us_ps2/sm64.us.f3dex2e.elf build/us_ps2/sm64.packed.elf
 ```
 Remember that packed ELFs will take a while to unpack before starting.
 
+
+We reccomend patching it with patches from enhancements folder. To do this, open the folder elsewhere and select the patches you'd like. Run the following commands with [patch] replaced by your patch name.
+```
+tools/apply_patch.sh enhancements/[patchname]
+```
+
 ## If you get audsrv build error, github messed up a recursive clone. 
 
 To fix it, run the following comamnds in the sm64-port folder. This has been fixed by deleting linked folder and manually uploading, this should not be an issue. Leaving solution for debugging.
