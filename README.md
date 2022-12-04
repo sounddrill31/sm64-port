@@ -62,7 +62,7 @@ ps2-packer build/us_ps2/sm64.us.f3dex2e.elf build/us_ps2/sm64.packed.elf
 Remember that packed ELFs will take a while to unpack before starting.
 
 
-We reccomend patching it with patches from enhancements folder. To do this, open the folder elsewhere and select the patches you'd like. Run the following commands with [patch] replaced by your patch name. I personally recommend the 60 fps, widescreen and view fps patches
+We reccomend patching it with patches from enhancements folder. To do this, open the folder elsewhere and select the patches you'd like. Run the following commands with [patch] replaced by your patch name. I personally recommend the 60 fps(60fps.patch), widescreen(widescreenv2_sm64.patch) and view fps(fps.patch) patches
 ```
 tools/apply_patch.sh enhancements/[patchname]
 ```
