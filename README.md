@@ -13,7 +13,7 @@ This is an older Build from August 4th, 2021, the newer ones have various issues
 
 ### Using Github Codespaces(Forker's choice)
 
-1. On desktop github, you will see a code tab.
+1. On desktop github web, you will see a code tab.
 ![image](https://user-images.githubusercontent.com/84176052/206078622-4b2bbd27-830c-46be-b87d-8310dd944f5a.png)
 2. CLick on it and go to codespaces tab.
 ![image](https://user-images.githubusercontent.com/84176052/206078727-527c3506-b93a-4b67-bd57-0ad002d0014c.png)
