@@ -20,7 +20,7 @@ This is an older Build from August 4th, 2021, the newer ones have various issues
 3. Delete any existing ones on the same brach by clicking on the three dots(optional)
 4. Click on the button to create a new instance. 
 ![image](https://user-images.githubusercontent.com/84176052/206078928-d62ee587-2d12-44bd-939d-befd14b34f4a.png)
-5. When it loads up, follow docker instructions from step 2. 
+5. When it loads up, follow docker instructions from step 2 till 4. 
 
 ### Using Docker
 
