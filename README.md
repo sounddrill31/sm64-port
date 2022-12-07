@@ -13,6 +13,17 @@ https://github.com/fgsfdsfgs/sm64-port/issues/72#issuecomment-1264672299
 
 ## Building PS2 executables
 
+### Using Github Codespaces(Forker's choice)
+
+1. On desktop github, you will see a code tab.
+![image](https://user-images.githubusercontent.com/84176052/206078622-4b2bbd27-830c-46be-b87d-8310dd944f5a.png)
+2. CLick on it and go to codespaces tab.
+![image](https://user-images.githubusercontent.com/84176052/206078727-527c3506-b93a-4b67-bd57-0ad002d0014c.png)
+3. Delete any existing ones on the same brach by clicking on the three dots(optional)
+4. Click on the button to create a new instance. 
+![image](https://user-images.githubusercontent.com/84176052/206078928-d62ee587-2d12-44bd-939d-befd14b34f4a.png)
+5. When it loads up, follow docker instructions from step 2 till 4. 
+
 ### Using Docker
 
 0. Ensure Git and Docker are installed on your system.
