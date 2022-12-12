@@ -13,7 +13,7 @@ https://github.com/fgsfdsfgs/sm64-port/issues/72#issuecomment-1264672299
 
 ## Building PS2 executables
 
-### Using Github Codespaces(Forker's choice)
+### Using Github Codespaces(Forker's Recommendation)
 
 1. On desktop github web, you will see a code tab.
 ![image](https://user-images.githubusercontent.com/84176052/206078622-4b2bbd27-830c-46be-b87d-8310dd944f5a.png)
