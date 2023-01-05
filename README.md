@@ -15,7 +15,7 @@ This is an older Build from August 4th, 2021, the newer ones have various issues
 
 1. On desktop github web, you will see a code tab.
 ![image](https://user-images.githubusercontent.com/84176052/206078622-4b2bbd27-830c-46be-b87d-8310dd944f5a.png)
-2. CLick on it and go to codespaces tab.
+2. Click on it and go to codespaces tab.
 ![image](https://user-images.githubusercontent.com/84176052/206078727-527c3506-b93a-4b67-bd57-0ad002d0014c.png)
 3. Delete any existing ones on the same brach by clicking on the three dots(optional)
 4. Click on the button to create a new instance. 
