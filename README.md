@@ -168,7 +168,7 @@ Run `clang-format` on your code to ensure it meets the project's coding standard
 Official Discord: https://discord.gg/7bcNTPK
 
 # Credits for this fork:
-### The Developers of the Decompilation
+### The Developers of the sm64 Decompilation
 ### The Developers of the Original PS2 Port
 ### godreborn
 ### xdccrlz
