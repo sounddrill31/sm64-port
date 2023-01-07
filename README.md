@@ -168,5 +168,5 @@ Official Discord: https://discord.gg/7bcNTPK
 ### The Developers of the Original PS2 Port
 ### godreborn
 ### xdccrlz
-###metchebe
+### metchebe
 ### And all other really nice people from the issues tab of original port
