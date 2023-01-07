@@ -11,7 +11,7 @@ This is an older Build from August 4th, 2021, the newer ones have various issues
 
 ## Building PS2 executables
 
-### Using Github Codespaces(Forker's choice)
+### Using Github Codespaces(Forker's Recommendation)
 
 1. On desktop github web, you will see a code tab.
 ![image](https://user-images.githubusercontent.com/84176052/206078622-4b2bbd27-830c-46be-b87d-8310dd944f5a.png)
