@@ -166,3 +166,11 @@ discuss what you would like to change.
 Run `clang-format` on your code to ensure it meets the project's coding standards.
 
 Official Discord: https://discord.gg/7bcNTPK
+
+# Credits for this fork:
+### The Developers of the Decompilation
+### The Developers of the Original PS2 Port
+### godreborn
+### xdccrlz
+###metchebe
+### And all other really nice people from the issues tab of original port
