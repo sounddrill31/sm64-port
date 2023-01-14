@@ -7,7 +7,7 @@ mkdir sm64iso
 
 #if pal, copy pal system.cnf
 
-echo -n "What is the rom region $Region ? "
+echo -n "What is the rom region $Region ? Options: NTSC, PAL, JP. "
 
 case $Region in
 
@@ -16,15 +16,18 @@ case $Region in
     #cp isoneeds/ntsc/*.cnf sm64iso
     ;;
 
-  Romania | Moldova)
-    echo -n "Romanian"
+  PAL)
+    echo -n "Executing for PAL"
+    #cp isoneeds/pal/*.cnf sm64iso
+    
     ;;
 
-  Italy | "San Marino" | Switzerland | "Vatican City")
-    echo -n "Italian"
+  JP")
+    echo -n "Executing for JP-NTSC"
     ;;
 
   *)
     echo -n "unknown"
+    echo -n "Invalid options entered, correct options are: NTSC, PAL, JP"
     ;;
 esac
