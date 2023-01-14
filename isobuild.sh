@@ -24,6 +24,7 @@ case $Region in
 
   JP")
     echo -n "Executing for JP-NTSC"
+    #cp isoneeds/jp/*.cnf sm64iso
     ;;
 
   *)
