@@ -154,6 +154,10 @@ sm64
 └── tools: build tools
 ```
 
+## Building an ISO. 
+Follow the instructions, and after finishing with building(do not pack elf), run the following command:
+```sudo chmod +x isobuild.sh && ./isobuild.sh```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to
