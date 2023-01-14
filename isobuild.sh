@@ -1,6 +1,6 @@
 #This will build isos, WIP.
 mkdir sm64iso
-#cp build/*_ps2/*.elf sm64iso
+cp build/*_ps2/*.elf sm64iso/'SLUS_064.64'
 
 
 # if ntsc, copy ntsc system.cnf
@@ -15,12 +15,12 @@ case $Region in
 
   NTSC)
     echo -n "Executing for NTSC"
-    #cp isoneeds/ntsc/*.cnf sm64iso
+    cp isoneeds/ntsc/*.CNF sm64iso
     ;;
 
   PAL)
     echo -n "Executing for PAL"
-    #cp isoneeds/pal/*.cnf sm64iso
+    cp isoneeds/pal/*.CNF sm64iso
     
     ;;
 
