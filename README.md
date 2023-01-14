@@ -34,6 +34,9 @@ cd sm64-port
 3. Build Docker image: `docker build . -t sm64_ps2`
 4. Compile using your Docker image: `docker run --rm -ti -v $(pwd):/sm64 sm64_ps2 make --jobs 4`
 
+
+You can automatically make an iso with minimal effort with: https://github.com/sounddrill31/sm64-port#building-an-iso
+
 ### Manually under Linux (WSL not tested, MSYS2 probably won't work)
 0. Ensure Git, GCC, GNU Make and Python 3 are installed on your system:
 ```
@@ -60,6 +63,8 @@ cd sm64-port
 4. Compile: `make -j4`
 
 In both cases, the resulting ELF will be in `build/<region>_ps2/`.
+
+You can automatically make an iso with minimal effort with: https://github.com/sounddrill31/sm64-port#building-an-iso
 
 ### (Optional) Strip and pack resulting ELF:
 ```
