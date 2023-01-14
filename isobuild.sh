@@ -7,6 +7,7 @@ mkdir sm64iso
 
 #if pal, copy pal system.cnf
 
+read Region
 echo -n "What is the rom region $Region ? Options: NTSC, PAL, JP. "
 
 case $Region in
