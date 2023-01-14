@@ -34,6 +34,7 @@ case $Region in
     echo -n "Invalid options entered, correct options are: NTSC, PAL"
     ;;
 esac
-echo "The following command will error out if you don't have mkisofs. We will try to use apt to install it. Install it manually if you face errors."
-sudo apt-get update && sudo apt install mkisofs
+echo "The following command will error out if you don't have mkisofs. We will try to install it. Install it manually if you face errors."
+sudo apt-get update && sudo apt-get install mkisofs
+sudo pacman -S cdrkit
  mkisofs -o sm64.iso sm64iso
