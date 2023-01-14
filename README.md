@@ -162,6 +162,8 @@ sm64
 ## Building an ISO. 
 Follow the instructions, and after finishing with building(do not pack elf), run the following command:
 ```sudo chmod +x isobuild.sh && ./isobuild.sh```
+There will be a file called sm64.iso in the base directory if everything went well.
+
 
 ## Contributing
 
