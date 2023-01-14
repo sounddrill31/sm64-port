@@ -167,6 +167,8 @@ Follow the instructions, and after finishing with building(do not pack elf), run
 
 ```sudo chmod +x isobuild.sh && ./isobuild.sh```
 
+There will be a file called sm64.iso in the base directory if everything went well.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to
