@@ -3,6 +3,7 @@
 I will try it out, and will archive this in a day, but there's no need for this repo since that should have better performance overall, and more benefits. 
 Thanks for the support!
 
+(let me know if any issues arise)
 
 
 # Super Mario 64 Port
